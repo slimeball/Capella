@@ -1,0 +1,24 @@
+{
+  "name": "dev-ev",
+  "version": "1.0.0",
+  "description": "development environment based on frontend newest version tools like(vue2 webpack2)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet --host t00005162-7.corp.vipshop.com",
+    "build": "webpack --progress --hide-modules --config webpack.production.js"
+  },
+  "author": "slimeball",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "eventproxy": "^0.3.5",
+    "superagent": "^3.5.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
+}
